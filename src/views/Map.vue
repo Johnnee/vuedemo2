@@ -240,7 +240,7 @@ export default {
 
 <style>
 #container {
-  width: 800px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
 }
 </style>
