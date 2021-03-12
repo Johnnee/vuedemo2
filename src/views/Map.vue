@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import "proj4";
+
 import Highcharts from "highcharts/highstock";
 import HighchartsMore from "highcharts/highcharts-more";
 import HighchartsDrilldown from "highcharts/modules/drilldown";
@@ -233,6 +233,7 @@ export default {
         },
       ],
     });
+
   },
 };
 </script>
