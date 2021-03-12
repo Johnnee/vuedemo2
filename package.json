@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "highcharts": "^9.0.1",
+    "proj4": "^2.7.2",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },
