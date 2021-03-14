@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory} from 'vue-router'
 import Home from '../views/Home.vue'
 import Map from '../views/Map.vue'
+const Graph = ()=>import('../views/Graph.vue')
 
 const routes = [
   {
@@ -21,6 +22,11 @@ const routes = [
     name: "Map",
     component: Map
 
+  },
+  {
+    path: '/graph',
+    name: 'Graph',
+    component:Graph
   }
 ]
 
