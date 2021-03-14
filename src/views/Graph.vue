@@ -257,7 +257,8 @@ export default {
             },
 
             title: {
-                text: 'Highcharts bubbles with radial gradient fill'
+                text: 'Highcharts bubbles with radial gradient fill',
+                align:"center"
             },
 
             xAxis: {
@@ -276,6 +277,7 @@ export default {
             },
 
             series: [{
+                name:"系列1",
                 data: [
                     [9, 81, 63],
                     [98, 5, 89],
@@ -302,6 +304,7 @@ export default {
                     }
                 }
             }, {
+                name:"系列2",
                 data: [
                     [42, 38, 20],
                     [6, 18, 1],

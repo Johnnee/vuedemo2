@@ -2853,7 +2853,7 @@ export default {
           tooltip: {
             // pointFormat: '{point.properties.hc-a2}: {point.z} thousands'
             shadow: true,
-            // useHTML可显示国旗图片
+            // useHTML可以显示html标签，可显示国旗图片
             useHTML: true,
             padding: 10,
             pointFormat: '<span class="f16"><span class="flag {point.properties.hc-key}">' +
