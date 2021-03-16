@@ -3,7 +3,8 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/map">Map</router-link> |
-    <router-link to="/graph">Graph</router-link>
+    <router-link to="/graph">Graph</router-link> |
+    <router-link to="/vue3">Vue3</router-link>
   </div>
   <router-view />
 </template>

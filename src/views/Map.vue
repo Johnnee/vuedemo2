@@ -3,12 +3,13 @@
   <div id="container2"></div><hr>
   <div id="container3"></div><hr>
   <div id="container4"></div><hr>
-  <div id="container5"></div>
+  <!-- <div id="container5"></div> -->
+  <MapChart></MapChart>
 </template>
 
 <script>
 
-import Highcharts from "highcharts/highstock";
+import Highcharts from "highcharts";
 import HighchartsMore from "highcharts/highcharts-more";
 import HighchartsDrilldown from "highcharts/modules/drilldown";
 import Wordcloud from "highcharts/modules/wordcloud";
@@ -17,6 +18,8 @@ import Highcharts3D from "highcharts/highcharts-3d";
 // import Highmaps from "highcharts/highmaps";
 import map from "../map";
 import worldmap from '../worldmap'
+
+import MapChart from '@/components/MapChart.vue'
 
 
 // import $ from 'jquery'
@@ -3049,6 +3052,9 @@ export default {
     init5(){
       }
   },
+  components: {
+    MapChart
+  }
 };
 </script>
 

@@ -10,7 +10,9 @@
     <div id="container6"></div><hr>
     <div id="container7"></div><hr>
     <div id="container8"></div><hr>
-    <div id="container9"></div>
+    <div id="container9">
+
+    </div>
 </template>
 <script>
     import Highcharts from 'highcharts'
@@ -1259,6 +1261,7 @@ export default {
             }]
         });
     },
+    
 }
 </script>
 <style>
